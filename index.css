@@ -1,0 +1,29 @@
+.single-slide div{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat!important;
+}
+
+.gradient {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    z-index: 1;
+}
+
+.image1 {
+	background: url('https://images.unsplash.com/photo-1557360798-c91519105dd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=891&q=80')
+}
+
+.image2 {
+	background: url('https://images.unsplash.com/photo-1557546883-32d60b7e1c38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=750&q=80')
+}
+.gradient1 {
+    background-image: linear-gradient(135deg, rgba(0, 141, 63, 0.8), rgba(0, 141, 63, 0.8) ,transparent, transparent, rgba(0, 255, 255, 0.6)); 
+}
+
+.gradient2 {
+    background-image: linear-gradient(135deg, rgba(216, 37, 51, 0.8), rgba(216, 37, 51, 0.8) ,transparent, transparent, rgba(252, 113, 44, 0.8)); 
+}
